@@ -15,20 +15,20 @@ This is useful for:
 ---
 ### Step-1: Create Repository in GitHub
 Create a repository with README.md file
-![](.Screenshot%20(59).png)
+![](./images/Screenshot%20(59).png)
 
 ### Step-2: Create Personal Access Token(classic)
 * GitHub → **Settings → Developer settings → Personal access tokens → Generate new token**
 * Grant all permissions/Scopes
 
-![](.Screenshot%20(63).png)
+![](./images/Screenshot%20(63).png)
 
 **Copy the token**
-![](Screenshot%20(64).png)
+![](./images/Screenshot%20(64).png)
 
 ### Step-3: Create Repository in GitLab
 Create a Blank repository with README.md file
-![](./Screenshot%20(60).png)
+![](./images/Screenshot%20(60).png)
 
 ### Step-4: Create a mirroring Repository
 Set up your project to automatically push or pull changes to/from another repository. Branches, tags, and commits will be synced automatically.
@@ -41,7 +41,7 @@ https://<GITHUB_USERNAME>@github.com/<GITHUB_USERNAME>/<GITHUB_REPO>.git
 ```
 * When prompted for a password, paste the **GitHub access token** and save
 
-![](./Screenshot%20(65).png)
+![](./images/Screenshot%20(65).png)
 
 ### Step-5: Clone GitLab Repository in your machine, add files and push to server 
 
@@ -69,12 +69,12 @@ git push -u origin main
 ```
 ## Output
 **In GITLAB:**
-![](./Screenshot%20(73).png)
+![](./images/Screenshot%20(73).png)
 
 **In GITHUB:**
 
 Automatically index.html file is synchronized to GitHub repository.
-![](.Screenshot%20(74).png)
+![](./images/Screenshot%20(74).png)
 
 ## Conclusion
 By following these steps, you can easily mirror your GitLab repository to GitHub, ensuring that your codebase stays synchronized, backed up, and accessible across both platforms.
